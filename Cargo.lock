@@ -176,7 +176,8 @@ dependencies = [
 [[package]]
 name = "i-wanna-build"
 version = "0.1.0"
-source = "git+https://github.com/FluffyProtogen/i-wanna-build.git#bd0ac4fa2621eaf1da079285f2e713905c618646"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4374b00ca0747526244838fdc9d5b880e5d13a490cfc4269ffcf59575cf25674"
 dependencies = [
  "quick-xml",
  "serde",
